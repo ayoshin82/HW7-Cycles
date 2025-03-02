@@ -65,6 +65,27 @@ public class Main {
                     System.out.println("Месяц" + " " + r + "=" + u);
                 }
             }
+            {
+                System.out.println("Задача 6");
+            }
+            int g=0;
+            for (r = 1; r <= 108; r++) {
+                g = g + g / 100 * 7;
+                g = g + s;
+                if (r % 6 == 0) {
+                    System.out.println("Месяц" + " " + r + "=" + g);
+                }
+            }
+            {
+                System.out.println("Задача 7");
+            }
+            int friday=3;
+            int numberDay=0;
+            for(numberDay=1; numberDay<=31; numberDay++){
+                if (numberDay%7==friday){
+                    System.out.println("Сегодня пятница"+" "+numberDay+" "+"число"+" "+"необходимо подготовить отчёт");
+                }
+            }
         }
     }
 }
