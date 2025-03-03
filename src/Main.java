@@ -57,7 +57,7 @@ public class Main {
             {
                 System.out.println("Задача 5");
             }
-            int u=0;
+            int u = 0;
             for (r = 1; r <= 60; r++) {
                 u = u + u / 100 * 7;
                 u = u + s;
@@ -68,7 +68,7 @@ public class Main {
             {
                 System.out.println("Задача 6");
             }
-            int g=0;
+            int g = 0;
             for (r = 1; r <= 108; r++) {
                 g = g + g / 100 * 7;
                 g = g + s;
@@ -79,16 +79,27 @@ public class Main {
             {
                 System.out.println("Задача 7");
             }
-            int friday=3;
-            int numberDay=0;
-            for(numberDay=1; numberDay<=31; numberDay++){
-                if (numberDay%7==friday){
-                    System.out.println("Сегодня пятница"+" "+numberDay+" "+"число"+" "+"необходимо подготовить отчёт");
+            int friday = 3;
+            int numberDay = 0;
+            for (numberDay = 1; numberDay <= 31; numberDay++) {
+                if (numberDay % 7 == friday) {
+                    System.out.println("Сегодня пятница" + " " + numberDay + " " + "число" + " " + "необходимо подготовить отчёт");
+                }
+            }
+            {
+                System.out.println("Задача 8");
+            }
+            for (int beginning = 1896; beginning <= 2054; beginning++) {
+                if (beginning % 79 == 0 ) {
+                    System.out.println(beginning);
+                }
+                    }
                 }
             }
         }
-    }
-}
+
+
+
 
 
 
